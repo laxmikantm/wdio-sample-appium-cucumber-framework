@@ -25,6 +25,8 @@ Click below to know more
 
 ## Running tests
 
+- Create a folder named `apps` at root level & place test iOS and Android apps in this folder.
+
 - Install dependencies using `npm i` in the terminal.
 
 - Update the deviceName and platFormVersion in `config/android.info.js` and `config/ios.info.js` respectively.
