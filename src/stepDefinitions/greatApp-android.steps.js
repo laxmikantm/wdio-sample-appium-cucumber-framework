@@ -1,8 +1,8 @@
 const {Given, Then, When} = require('cucumber');
 
 
-const InstructionsScreen = require('./../pages/instructions.page');
-const DashboardPage = require('./../pages/dashboard.page');
+const InstructionsScreen = require('../pages/instructions.page');
+const DashboardPage = require('../pages/dashboard.page');
 const instructionsScreen = new InstructionsScreen();
 const dashboardPage = new DashboardPage();
 

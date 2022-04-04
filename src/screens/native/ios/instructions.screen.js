@@ -1,7 +1,5 @@
 class InstructionsScreen{
     constructor(){
-        this.dashboardTitle =
-            '**/XCUIElementTypeOther[`label == "dashboard-title"`]';
         this.dashboardLink = 
             // 'Dashboard tab';
             '//XCUIElementTypeButton[@name="Dashboard tab"]';

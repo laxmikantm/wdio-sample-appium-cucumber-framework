@@ -10,7 +10,7 @@ class InstructionsPage {
 
     launchApp() {
         ActionHelper.launchApp();
-        ActionHelper.switchToNativeContext();
+        ActionHelper.switchToNativeContext(); //disabling for IOS
         ActionHelper.pause(2);
     }
 

@@ -93,8 +93,9 @@ exports.config = {
         name: [],
         profile: [],
         require: [
-            './src/stepDefinitions/greatApp.steps.js',
-            './src/stepDefinitions/alert.steps.js',
+            './src/stepDefinitions/greatApp-android.steps.js',
+            './src/stepDefinitions/alert-android.steps.js',
+            './src/stepDefinitions/greatApp-iOS.steps.js',
             './src/stepDefinitions/google.steps.js' // TO DO - to add generic regex formular
         ],
         snippetSyntax: undefined,
