@@ -1,0 +1,322 @@
+[
+    {
+      "keyword": "Feature",
+      "type": "feature",
+      "description": "",
+      "line": 1,
+      "name": "Sample feature file to test basic app functionality",
+      "uri": "N/A",
+      "tags": [],
+      "elements": [
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "Sample tests to check Awesome App",
+          "name": "Awesome App Test",
+          "tags": [
+            {
+              "name": "@androidApp",
+              "location": {
+                "line": 3,
+                "column": 3
+              }
+            }
+          ],
+          "id": "sample-feature-file-to-illustrate-app-and-browser-tests;convert-c-to-f-of-a-native-android-app",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "Hook",
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              },
+              "line": "",
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I launch the app",
+              "result": {
+                "status": "passed",
+                "duration": 15746000000
+              },
+              "line": 5,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I enter celsius of 1",
+              "result": {
+                "status": "passed",
+                "duration": 3249000000
+              },
+              "line": 6,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see fahrenheit of 33.8",
+              "result": {
+                "status": "passed",
+                "duration": 591000000
+              },
+              "line": 7,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "Hook",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": "",
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sample-feature-file-to-illustrate-app-and-browser-tests",
+      "metadata": {
+        "browser": {
+          "name": "No metadata.browser.name available",
+          "version": "No metadata.browser.version available"
+        },
+        "device": "Device name not known",
+        "platform": {
+          "name": "Android",
+          "version": "Version not known"
+        }
+      }
+    },
+    {
+      "keyword": "Feature",
+      "type": "feature",
+      "description": "",
+      "line": 1,
+      "name": "Sample feature file to illustrate app and browser tests",
+      "uri": "Can not be determined",
+      "tags": [],
+      "elements": [
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "Convert C to F of a native android app",
+          "tags": [
+            {
+              "name": "@androidApp",
+              "location": {
+                "line": 3,
+                "column": 3
+              }
+            }
+          ],
+          "id": "sample-feature-file-to-illustrate-app-and-browser-tests;convert-c-to-f-of-a-native-android-app",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "Hook",
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              },
+              "line": "",
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I launch the app",
+              "result": {
+                "status": "passed",
+                "duration": 12609000000
+              },
+              "line": 5,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I enter celsius of 1",
+              "result": {
+                "status": "failed",
+                "duration": 11573000000,
+                "error_message": "Error: element (\"//android.widget.EditText[@resource-id=\"com.androiddev2015.cfconverter:id/editTextC\"]\") still not displayed after 10000ms\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at Function.waitForElement (/Users/laxmisomni/Documents/proj/try/laxmi-wdio-cucumber-appium/src/helpers/actionHelpers.js:32:20)\n    at CelsiusToFahrenhietConvertorPage.enterCelsius (/Users/laxmisomni/Documents/proj/try/laxmi-wdio-cucumber-appium/src/pages/celsiusToFahrenheitConvertor.page.js:25:22)\n    at World.<anonymous> (/Users/laxmisomni/Documents/proj/try/laxmi-wdio-cucumber-appium/src/stepDefinitions/celsiusToFahrenheitConvertor.steps.js:12:38)"
+              },
+              "line": 6,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see fahrenheit of 33.8",
+              "result": {
+                "status": "skipped",
+                "duration": 0
+              },
+              "line": 7,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "Hook",
+              "result": {
+                "status": "passed",
+                "duration": 0
+              },
+              "line": "",
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sample-feature-file-to-illustrate-app-and-browser-tests",
+      "metadata": {
+        "browser": {
+          "name": "No metadata.browser.name available",
+          "version": "No metadata.browser.version available"
+        },
+        "device": "Device name not known",
+        "platform": {
+          "name": "Android",
+          "version": "Version not known"
+        }
+      }
+    },
+    {
+      "keyword": "Feature",
+      "type": "feature",
+      "description": "",
+      "line": 1,
+      "name": "Sample feature file to illustrate app and browser tests",
+      "uri": "Can not be determined",
+      "tags": [],
+      "elements": [
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "Convert C to F of a native android app",
+          "tags": [
+            {
+              "name": "@androidApp",
+              "location": {
+                "line": 3,
+                "column": 3
+              }
+            }
+          ],
+          "id": "sample-feature-file-to-illustrate-app-and-browser-tests;convert-c-to-f-of-a-native-android-app",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "Hook",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": "",
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I launch the app",
+              "result": {
+                "status": "passed",
+                "duration": 14600000000
+              },
+              "line": 5,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I enter celsius of 1",
+              "result": {
+                "status": "failed",
+                "duration": 14836000000,
+                "error_message": "Error: element (\"//android.widget.EditText[@resource-id=\"com.androiddev2015.cfconverter:id/editTextC\"]\") still not displayed after 10000ms\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at Function.waitForElement (/Users/laxmisomni/Documents/proj/try/laxmi-wdio-cucumber-appium/src/helpers/actionHelpers.js:32:20)\n    at CelsiusToFahrenhietConvertorPage.enterCelsius (/Users/laxmisomni/Documents/proj/try/laxmi-wdio-cucumber-appium/src/pages/celsiusToFahrenheitConvertor.page.js:25:22)\n    at World.<anonymous> (/Users/laxmisomni/Documents/proj/try/laxmi-wdio-cucumber-appium/src/stepDefinitions/celsiusToFahrenheitConvertor.steps.js:12:38)"
+              },
+              "line": 6,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see fahrenheit of 33.8",
+              "result": {
+                "status": "skipped",
+                "duration": 0
+              },
+              "line": 7,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "Hook",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": "",
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            }
+          ]
+        }
+      ],
+      "id": "sample-feature-file-to-illustrate-app-and-browser-tests",
+      "metadata": {
+        "browser": {
+          "name": "No metadata.browser.name available",
+          "version": "No metadata.browser.version available"
+        },
+        "device": "Device name not known",
+        "platform": {
+          "name": "Android",
+          "version": "Version not known"
+        }
+      }
+    }
+  ]
