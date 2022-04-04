@@ -2,6 +2,11 @@
 *.DS_Store
 .AppleDouble
 .LSOverride
+### App files ###
+.app
+.apk
+.ipa
+.aab
 
 ### Node ###
 # Logs
@@ -11,7 +16,6 @@ npm-debug.log*
 node_modules/
 allure-report/
 allure-results/
-apps/
 
 # Optional npm cache directory
 .npm
