@@ -25,7 +25,7 @@ Click below to know more
 
 ## Running tests
 
-- Place test app file(s) (iOS and Android test apps) in a folder named `apps` at root level.
+- Create a folder named `apps` at root level & place test iOS and Android apps in this folder.
 
 - Install dependencies using `npm i` in the terminal.
 
