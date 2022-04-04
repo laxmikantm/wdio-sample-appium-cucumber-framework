@@ -3,6 +3,11 @@
 .AppleDouble
 .LSOverride
 
+## app Files ##
+*.apk
+*.app
+*.ipa
+
 ### Node ###
 # Logs
 npm-debug.log*
