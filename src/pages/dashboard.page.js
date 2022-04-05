@@ -11,7 +11,7 @@ class DashboardPage {
 
     verifyDashboardPage() {
         ActionHelper.pause(2);
-        ActionHelper.switchToNativeContext();
+        // ActionHelper.switchToNativeContext();
         ActionHelper.isVisible(this.getObjectLocator().dashboardTitle).should.be.true;
     }
     

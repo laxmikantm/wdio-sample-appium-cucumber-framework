@@ -4,10 +4,10 @@ const IosInfo = require('./ios.info');
 config.capabilities = [
     {
         'cjson:metadata': {
-            device: 'MacBook Pro 16',
+            device: 'iPhone 13',
             platform: {
                 name: 'OSX',
-                version: '12.1'
+                version: '15.0'
             },
             browser: {
                 name: 'chrome',
@@ -15,7 +15,7 @@ config.capabilities = [
             },
             // for an Native app
             app: {
-                name: 'name.of.app.ipa',
+                name: 'AwesomeApp.app',
                 version: '1.2.3',
             },
         },
